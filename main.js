@@ -113,7 +113,7 @@ document
             <p class ='p-3'> You've donated ${addMoney} tk for <span class ="text-green-500 font-semibold"> Noakhali</span>, Transaction date is ${new Date().toLocaleDateString()}</p>
         
         `;
-    document.getElementById("transaction-container").appendChild(div);
+    document.getElementById("transaction-contain").appendChild(div);
   });
 
 //------------------------------------- feni -----------------------------------------
@@ -159,7 +159,7 @@ document
     div.innerHTML = `
                 <p class ='p-3'> You've donated ${inputMoney} tk for <span class ="text-blue-500 font-semibold">Feni</span>, Transaction date is ${new Date().toLocaleDateString()}</p>
             `;
-    document.getElementById("transaction-container").appendChild(div);
+    document.getElementById("transaction-contain").appendChild(div);
   });
 
 //----------------------------------quota movement------------------------------------
